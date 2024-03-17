@@ -1,1 +1,9 @@
 # qa_python
+test_set_book_genre_set_genre_two_books_shows_genres_by_books - проверка задания жанра книгам
+test_add_new_book_with_too_long_name_not_in_books_genres - проверка добавления книги больше 41 символа
+test_get_book_genre_for_non_existing_book_shows_none - проверка отображения книги по жанру
+test_get_books_genre_add_book_with_genre_get_books_genre - проверка получения словаря books_genre
+test_get_books_for_children_add_adult_book_no_children_books - проверка не добавления взрослой книги в раздел для детей
+test_add_book_in_favorites_existing_book_added_to_favorites - проверка добавления существующей книги в избранное
+test_delete_book_from_favorites_existing_book_deleted_from_favorites - проверка удаления существующей книги из избранного
+test_get_list_of_favorites_books_add_two_of_three_books_in_favorites_shows_two_added_books - проверка получения списка избранных книг при добавление в избранное 2 из 3 книг
